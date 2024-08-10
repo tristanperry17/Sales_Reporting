@@ -79,8 +79,7 @@ Where color indicates profit ratio values, with an added filter of date for furt
 --
 
 Product categories can be analyzed for profitability using chart features in Tableau. Here is a quick view to show not only profit by product category,
-
-but in a greater context the order volume:
+but to add greater context, the order volume:
 
 ![Profit Ratio by Lead Time (States)](https://raw.githubusercontent.com/tristanperry17/Sales_Reporting/main/Images/catesum.jpg)
 
