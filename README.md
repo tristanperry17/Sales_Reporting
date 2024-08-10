@@ -106,7 +106,7 @@ while sales in New York City and Los Angeles make those markets highly profitabl
 
 Diving further into the city-level analysis, Tableau has clustering capability. Based on profit and sales quantity, we could group cities into categories.
 
-![Grouped Profit (Cities)](https://raw.githubusercontent.com/tristanperry17/Sales_Reporting/main/Images/CityClusters.png))
+![Grouped Profit (Cities)](https://raw.githubusercontent.com/tristanperry17/Sales_Reporting/main/Images/CityClusters.png)
 
 Adding marker symbols for negative and positive profit, Tableau can visually present cluster data in an easily digested format. 
 
