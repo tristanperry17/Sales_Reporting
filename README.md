@@ -57,15 +57,12 @@ Here are some screenshots of the Tableau visualizations created so far:
 
 (https://public.tableau.com/views/MarketAnalysis-ClusteredCities/ProfitAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-Initially, the dataset (sourced from: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) contains various geographical and financial date
-
+Initially, the dataset (sourced from: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) contains various geographical and financial data
 such as sales, order quantity, discounts, city/state, product category, etc.
 
 --
 
 Tableau is a powerful enterprise data analysis and visualization tool, user friendly and relatively easy to learn.
-
---
 
 Profit Ratio can quickly be added to the dataset by creating a calculated field:
 
@@ -92,6 +89,8 @@ Which creates the field for "Lead Time" - the time between order date and ship d
 may have an impact on profit ratio if certain locations experience higher lead times.
 
 ![Profit Ratio by Lead Time (States)](https://raw.githubusercontent.com/tristanperry17/Sales_Reporting/main/Images/Summary(4).png)
+
+Each bar represents a state (hover to show) and this visualization may easily identify outliers.
 
 --
 
