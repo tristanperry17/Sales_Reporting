@@ -27,14 +27,7 @@ This project explores data analysis and visualization using Tableau, Python, and
 To get started, ensure you have the following installed:
 
 - **Tableau**: Tableau Desktop or Tableau Public.
-- **Python**: Python 3.x. Install required libraries using:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-  The `requirements.txt` file includes dependencies like `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, and potentially `tensorflow`.
-
+- **Python**: Python 3.x. Most required libraries have optional install cells in the notebook.
 - **R**: R (and required packages) will be added later.
 
 ## Usage
@@ -42,18 +35,13 @@ To get started, ensure you have the following installed:
 - Open the Tableau workbook file `Market Analysis- Clustered Cities (1).twbx` in Tableau to explore the visualizations.
 
 ### Python
-- Run the Python scripts located in the `python` directory for analysis.
-- Example command:
-
-    ```bash
-    python analysis_script.py
-    ```
+- Run the Python scripts located in the `Python_Analysis_ANV.ipynb` notebook for analysis.
 
 ### R
 - R analysis will be included in future updates.
 
 ## Tableau Visualizations
-Here are some screenshots of the Tableau visualizations created so far:
+Direct link to Tableau workbook:
 
 (https://public.tableau.com/views/MarketAnalysis-ClusteredCities/ProfitAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
