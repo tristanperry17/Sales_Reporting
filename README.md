@@ -9,6 +9,11 @@ This project explores data analysis and visualization using Tableau, Python, and
 2. What product types are most profitable?
 3. Can locations and or products be grouped into clusters according to profitability?
 
+## Assessment criteria for platforms
+1. Required background knowledge: what knowledge/skills are needed to create answers to our problems in each platform?
+2. Ease of completion/ time invested: How difficult and time consuming are solutions with each platform?
+3. Presentation: Are concepts and ideas communicated simply, effectively, and in an aesthetically pleasing way?
+
 ### Current Status
 - **Tableau Analysis**: Completed
 - **Python Analysis**: In Progress
