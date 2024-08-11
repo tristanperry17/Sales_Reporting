@@ -38,7 +38,7 @@ To get started, ensure you have the following installed:
 
 ## Usage
 ### Tableau
-- Open the Tableau workbook file `Market Analysis- Clustered Cities (1).twbx` in Tableau to explore the visualizations.
+- Open the Tableau workbook file `Superstore Sales Analysis.twbx` in Tableau to explore the visualizations.
 
 ### Python
 - Run the Python scripts located in the `Python_Analysis_ANV.ipynb` notebook for analysis.
@@ -49,7 +49,7 @@ To get started, ensure you have the following installed:
 ## Tableau Visualizations
 Direct link to Tableau workbook:
 
-(https://public.tableau.com/views/MarketAnalysis-ClusteredCities/ProfitAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+(https://public.tableau.com/app/profile/tristan.perry/viz/SuperstoreSalesAnalysis_17233888341420/ProfitAnalysis?publish=yes)
 
 Initially, the dataset (sourced from: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) contains various geographical and financial data
 such as sales, order quantity, discounts, city/state, product category, etc.
