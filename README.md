@@ -134,7 +134,12 @@ Tableau Summary:
 Relatively high sales quantities in key low profit markets like Chicago, Texas in general, and some of Pennsylvania may require investigation. Lead time does not seem to be a valid KPI for Superstore-
 A potential improvement could involve discounts, which Tableau can easily analyze:
 
-![Disc and PR States]()
+![Disc and PR States](https://raw.githubusercontent.com/tristanperry17/Sales_Reporting/main/Images/DISC_Tab.jpg)
+
+--
+Here it becomes apparent that the three identified problem areas do indeed seem to have the greatest discount values. A potential recommendation to improve profitability in these areas would be
+keeping the discount value at 150 or lower.
+--
 
 ## Assessment criteria for platforms
 1. Required background knowledge: what knowledge/skills are needed to create answers to our problems in each platform?
