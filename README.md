@@ -23,10 +23,11 @@ This project explores data analysis and visualization using Tableau, Python, and
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Tableau Visualizations](#tableau-visualizations)
-4. [Future Work](#future-work)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
+4. [Python Visualizations](#python-visualizations)
+5. [Future Work](#future-work)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
 ## Installation
 To get started, ensure you have the following installed:
@@ -113,8 +114,35 @@ Diving further into the city-level analysis, Tableau has clustering capability. 
 
 Adding marker symbols for negative and positive profit, Tableau can visually present cluster data in an easily digested format. 
 
---
+---
 
+## Python Visualizations
+
+Python is a versitile programming language that can be used for data analysis and visualization with standard reporting capabilities and fairly robust statistical and ML libraries. 
+
+Python requires scripting and syntax knowledge, as well as background knowledge of libraries, parameters and logic.
+
+Similarly to Tableau, the data is loaded using pandas to read the csv file to construct a DataFrame, and our two calculated fields can be recreated as new columns:
+
+```python
+# 'Profit' and 'Sales' columns to numeric
+superstore_df['Profit'] = pd.to_numeric(superstore_df['Profit'], errors='coerce')
+superstore_df['Sales'] = pd.to_numeric(superstore_df['Sales'], errors='coerce')
+
+# Calculate the Profit Ratio:
+# Divide profit by sales
+superstore_df['Profit Ratio'] = superstore_df['Profit'] / superstore_df['Sales']
+
+# Handle NaNs & nulls (division by zero errors) 
+superstore_df['Profit Ratio'].replace([float('inf'), -float('inf')], pd.NA, inplace=True)
+
+# 'Order Date' and 'Ship Date' to datetime
+superstore_df['Order Date'] = pd.to_datetime(superstore_df['Order Date'], format='%m/%d/%Y')
+superstore_df['Ship Date'] = pd.to_datetime(superstore_df['Ship Date'], format='%m/%d/%Y')
+
+# Calculate Lead Time as the difference between 'Ship Date' and 'Order Date'
+superstore_df['Lead Time'] = (superstore_df['Ship Date'] - superstore_df['Order Date']).dt.days
+```
 
 --
 ## Future Work
