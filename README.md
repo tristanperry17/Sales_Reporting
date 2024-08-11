@@ -134,6 +134,8 @@ Tableau Summary:
 Relatively high sales quantities in key low profit markets like Chicago, Texas in general, and some of Pennsylvania may require investigation. Lead time does not seem to be a valid KPI for Superstore-
 A potential improvement could involve discounts, which Tableau can easily analyze:
 
+![Disc and PR States]()
+
 ## Assessment criteria for platforms
 1. Required background knowledge: what knowledge/skills are needed to create answers to our problems in each platform?
 2. Ease of completion/ time invested: How difficult and time consuming are solutions with each platform?
