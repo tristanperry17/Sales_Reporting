@@ -114,6 +114,31 @@ Diving further into the city-level analysis, Tableau has clustering capability. 
 
 Adding marker symbols for negative and positive profit, Tableau can visually present cluster data in an easily digested format. 
 
+--
+Tableau Summary:
+--
+
+## Overall Rating:
+
+⭐⭐⭐⭐☆
+
+## Problems to solve
+1. What locations are most profitable, and what locations could have opportunities for improvement?
+   - As seen with our maps, and city clusters, New York, Seattle, and California are highly profitable markets. Illinois, Texas, and Pennsylvania are areas that could be improved.
+2. What product types are most profitable?
+   - Paper, Binders and Phone sales are some key profitable products.
+3. Can locations and or products be grouped into clusters according to profitability?
+   - Yes, we can group cities into clusters based on sales and profit data.
+
+## Recommendations
+Relatively high sales quantities in key low profit markets like Chicago, Texas in general, and some of Pennsylvania may require investigation. Lead time does not seem to be a valid KPI for Superstore-
+A potential improvement could involve discounts, which Tableau can easily analyze:
+
+## Assessment criteria for platforms
+1. Required background knowledge: what knowledge/skills are needed to create answers to our problems in each platform?
+2. Ease of completion/ time invested: How difficult and time consuming are solutions with each platform?
+3. Presentation: Are concepts and ideas communicated simply, effectively, and in an aesthetically pleasing way?
+
 ---
 
 ## Python Visualizations
