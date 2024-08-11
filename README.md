@@ -141,10 +141,13 @@ Here it becomes apparent that the three identified problem areas do indeed seem 
 keeping the discount value at 150 or lower.
 --
 
-## Assessment criteria for platforms
-1. Required background knowledge: what knowledge/skills are needed to create answers to our problems in each platform?
+## Assessment 
+1. Required background knowledge: what knowledge/skills are needed to create answers to our problems?
+   - Basic understanding of creating simple calculated fields, and slightly more advanced knowledge of clustering capabilities in Tableau.
 2. Ease of completion/ time invested: How difficult and time consuming are solutions with each platform?
+   - With basic knowledge of Tableau, visualizations are quickly created and modified. The recommendation visualization was created in less than 5 minutes after postulating the question.
 3. Presentation: Are concepts and ideas communicated simply, effectively, and in an aesthetically pleasing way?
+   - Yes, complexity is relatively low, information is easily communicated and largely interactive, with many choices for aesthetic options.
 
 ---
 
