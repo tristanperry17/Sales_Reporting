@@ -149,6 +149,7 @@ Using Dash, plotly and geojson (for map data) we can create our python version o
 
 This comes close to the Tableau view, but reporting details are less appealing. The Dash date-range slider added along the bottom is less user friendly in comparison to Tableau,
 with relatively more complexity and higher time investment to achieve a slightly less appealing result.
+
 --
 
 With our the two new columns, a bubble chart can be created to compare profit ratio, lead time, and order quantity.
