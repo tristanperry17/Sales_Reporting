@@ -90,9 +90,10 @@ Which creates the field for "Lead Time" - the time between order date and ship d
 
 may have an impact on profit ratio if certain locations experience higher lead times.
 
-![Profit Ratio by Lead Time (States)](https://raw.githubusercontent.com/tristanperry17/Sales_Reporting/main/Images/Summary(4).png)
+![Profit Ratio by Lead Time (States)](https://raw.githubusercontent.com/tristanperry17/Sales_Reporting/main/Images/LT_PR.jpg)
 
-Each bar represents a state (hover to show) and this visualization may easily identify outliers.
+Each point represents a state (hover to show) and size represents sales quantity. We can conclude that average lead time does not seem
+to have much impact on the profit ratio in a given state, although there are some outliers.
 
 --
 
