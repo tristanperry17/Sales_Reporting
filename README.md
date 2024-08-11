@@ -143,8 +143,61 @@ superstore_df['Ship Date'] = pd.to_datetime(superstore_df['Ship Date'], format='
 # Calculate Lead Time as the difference between 'Ship Date' and 'Order Date'
 superstore_df['Lead Time'] = (superstore_df['Ship Date'] - superstore_df['Order Date']).dt.days
 ```
+Using Dash, plotly and geojson (for map data) we can create our python version of an interactive profit ratio by state map
 
+![Py Profit Ratio by State](https://raw.githubusercontent.com/tristanperry17/Sales_Reporting/main/Images/py_statemap.jpg)
+
+This comes close to the Tableau view, but reporting details are less appealing. The Dash date-range slider added along the bottom is less user friendly in comparison to Tableau,
+with relatively more complexity and higher time investment to achieve a slightly less appealing result.
 --
+
+With our the two new columns, a bubble chart can be created to compare profit ratio, lead time, and order quantity.
+
+This plotly visualization is on par with Tableau for reporting, however requires some data aggregation to achieve the desired result:
+
+```python
+# Aggregate data by state for plotting
+state_agg = superstore_df.groupby('State').agg({
+    'Lead Time': 'mean',
+    'Profit Ratio': 'mean',
+    'Quantity': 'sum'  
+}).reset_index()
+
+# Rename 'Quantity' column to 'Total Quantity'
+state_agg.rename(columns={'Quantity': 'Total Quantity'}, inplace=True)
+
+
+# Create scatter/bubble plot with hover info
+fig = px.scatter(
+    state_agg,
+    x='Lead Time',
+    y='Profit Ratio',
+    size='Total Quantity',  
+    color='State',          
+    hover_name='State',     
+    hover_data={
+        'Lead Time': True,
+        'Profit Ratio': True,
+        'Total Quantity': True  
+    },
+    title='Profit Ratio vs. Lead Time by State'
+)
+
+# Update layout for better appearance
+fig.update_layout(
+    xaxis_title='Lead Time (days)',
+    yaxis_title='Profit Ratio',
+    showlegend=True
+)
+
+```
+Where as Tableau has a more user friendly built-in aggregation tool when selecting fields to generate SUM or AVG.
+
+The python generated bubble chart is effective and appealing.
+
+![Py Profit Ratio by State](https://raw.githubusercontent.com/tristanperry17/Sales_Reporting/main/Images/py_LTPR_state.jpg)
+
+
 ## Future Work
 - **Python Analysis**: Implement and test data analysis and machine learning models using `sklearn` and potentially TensorFlow.
 - **R Analysis**: Conduct analysis and visualizations using R to complete the comparative study.
